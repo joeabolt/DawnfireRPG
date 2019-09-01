@@ -1,0 +1,36 @@
+DEFINITIONS
+"This project" refers to the collected rules, code, and other documents that make up the Dawnfire Table-Top Role-Playing Game. Barring unexpected circumstances, anything in the same directory as this file or any subdirectories thereof is part of this project.
+
+By using this project, you implicitly agree to abide by this license. "Using this project" means any significant interaction beyond browsing the repository. Running a game, compiling any code, and running any code are all examples of using this project.
+
+INTENT
+This license is intended to protect this project from misuse, to protect is contributors' creations and ability to contribute, to protect users' ability to engage with and use this project, and to protect the original creator's ability to use this project for their own purposes, personal, public, or commercial.
+
+RIGHTS AND RESTRICTIONS
+Everyone has the following rights:
+	* You may make modifications, as long as this license is left unchanged.
+	  - Exception: Whoever forks this repository to create a new one has permission to also change the copyright rules to be appropriate for their repository. They may not change the other contents of this license. Their changes apply only to their repository and contributions to it.
+	* You may use the rules, code, and other documents either privately or publicly. You may not use them comercially, even modified versions.
+	* Any invention worthy of patent may be patented by the creators whose contributions created the invention; individual contributors retain patent rights.
+	* You may make a private copy of this project for personal use.
+
+Everyone is under the following restrictions:
+	* You accept full liability for any harm as a result of your use or modification of this project.
+	* You accept that the copyright for contributions belongs to the original creator - see the section on copyright below.
+	* You assert that you have the authority to grant copyright of your contributions to the original creator - you cannot contribute copyrighted material.
+	* You will not use the name Dawnfire RPG or variants thereof for your projects.
+	* You will not distribute the project - instead, link to this repository on GitHub.
+
+The original creator of this project retains special rights that supersede the above:
+	* They may distribute this project commercially.
+	* They may distribute this project publicly.
+	* They may cease making this project publicly available.
+	* They retain copyright to the project - see the section on copyright below.
+	* They may update or edit this license in keeping with its intent. Clarifications are retroactive, while changes take effect when they are made publicly available.
+
+COPYRIGHT
+The original creator of this project retains copyright to the project. Contributions by others to this repository are included under this copyright (that is to say, the contributor does not have copyright over their contribution).
+
+A contributor always has permission to replicate and publish their contributions, but not any other parts of this project. A contributor who duplicates their contribution into this project and another project may still distribute the other project comercially (and still may not distribute this project comercially). In short, a contributor may not be harmed by their contribution's copyright belonging with this project.
+
+Rationale: Copyright is centralized to streamline any lawsuits that arise, and to empower the original creator to defend the whole creation on behalf of all contributors. The centralized copyright is not intended to limit an individual's ability to contribute, nor their ability to use their own ideas in other projects.
