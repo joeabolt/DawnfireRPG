@@ -31,6 +31,11 @@ Every spell has several details associated with it:
     * _Room_: The spell affects a clearly enclosed space and all targets within it. For example: a broom cupboard, the nave of a cathedral, or a forest clearing, but not an alpine valley or a room-sized volume of empty space.
     * _Boundary_: The spell affects everything within a boundary, such as the edge of a forest, the shores of a lake, the edge of a farm plot, or the walls of a city. There must be a clear boundary - this cannot affect abritrary space.
 
+## Spell Attack Rolls
+These come up reasonably frequently.
+
+_Spell Attack Roll = 1d20 + Intelligence + spell Tier + misc. bonuses_
+
 ## Fireball
 __Tier:__ 1; __Element:__ Fire;  
 __Casting Time:__ 2 AP; __Casting Cost:__ 5 [HP Reduction];  
@@ -81,9 +86,11 @@ You may cast this spell on the same target multiple times. The bonuses do not st
 __Tier:__ 1; __Element:__ Earth;  
 __Casting Time:__ 2 AP; __Casting Cost:__ 5 [HP Reduction];  
 __Range:__ Voice; __Duration:__ 3 [Rounds]; __Target__: 1 inanimate object;
-__Description:__ You shout a command at an object, and it immediately moves to obey. This allows you to control the object, but it can only move in ways it is designed to - a door can swing on its hinges, a rope can move in almost any direction, and a lock can turn, but a sword cannot swing itself, a spoon cannot bend, and a rock cannot roll. If you cast this spell again while it is currently active, the first instance of the spell immediately ends.
+__Description:__ You shout a command at an object, and it immediately moves to obey. This allows you to control the object, but it can only move in ways it is designed to - a door can swing on its hinges, a rope can move in almost any direction, and a lock can turn, but a sword cannot swing itself, a potion cannot uncork itself, and a rock cannot roll. If you cast this spell again while it is currently active, the first instance of the spell immediately ends.
 
 If you target an object in another creature's possession, you must make a spell attack roll against the possessor's SR. If you succeed, this spell works normally. If you fail, you may only issue a single swift command to the object - a book can slam shut or an unlocked chest can pop open, but a necklace cannot strangle its wearer, nor can a lock undo itself.
+
+If the Strength of this spell comes into question (say, a door trying to hold itself shut), treat its Strength as your Charisma.
 
 You may cast this spell above 1st tier. Each time you increase the tier:
 * Increase the duration by 1 [Round].
@@ -117,6 +124,35 @@ The following table summarizes these changes for your ease:
 |9 |10 AP|45|190|11d6|x9
 |10|11 AP|50|210|12d6|x10
 
+## Shield
+__Tier:__ 1; __Element:__ Earth;  
+__Casting Time:__ 1 AP; __Casting Cost:__ 5 [HP Reduction];  
+__Range:__ Touch; __Duration:__ Sun, or until depleted; __Target:__ 1 creature;  
+__Description:__ You summon a shield-sized plane of [Force] that automatically moves around a creature you designate to protect them against harm. It provides a +2 bonus to AC while active, increased to +4 against ranged attacks. If you are targeted by the Magic Missile spell, the shield automatically negates it - the shield can do this 5 times, after which it is destroyed.
+
+You can cast this spell above 1st Tier. Each time you increase the tier, do the following:
+* Increase the number of missiles the shield can absorb by 1
+
+## Counterspell
+__Tier:__ 1; __Element:__ Metal;  
+__Casting Time:__ 2 AP, see text; __Casting Cost:__ 0 [HP Reduction], see text;  
+__Range:__ Voice; __Duration:__ Concentration/Instantaneous; __Target:__ 1 spell;  
+__Description:__ You murmur and wring your hands, preparing a small bundle of antimagic that can be used to counter an enemy spell. When you finish casting the spell, it does not automatically fire, and you may begin concentrating each [Round] to save it for later. You fire the counterspell as a [Reaction] or as an [Instant Action] when an enemy within range of your voice finishes casting a spell. Roll 1d6 per point of [HP Reduction] accepted when you cast this spell. If you exceed their spell attack roll (they make one now if they did not have to for the spell), their spell is countered and has no effect.
+
+You can use Counterspell on itself; indeed, this is a rather common feature of wizard duels. Wands and staves with Counterspell can be designed with a flat cost of 5 [HP Reduction] (plus any [HP Reduction] to grant the counterspell strength) to allow them to charge and cast it as a [Fast Action].
+
+## Gust of Wind
+__Tier:__ 1; __Element:__ Metal;  
+__Casting Time:__ 1 AP; __Casting Cost:__ 3 [HP Reduction];  
+__Range:__ Personal; __Duration:__ 3 [Rounds]; __Target:__ 30-ft line;  
+__Description:__ You call to the wind and it gathers in your open palm. Casting this spell requires a free hand for the duration - picking up an object in that hand ends the spell. While this spell is active, you may fire a 30-ft line of intense wind as a [Standard Action]. Any creature or object in the line is thrown backwards. Make a spell attack roll, using 12 + their Strength + 2 for each size category above Medium as their defense. If you succeed, they are [Knocked back] 15 feet. If they resist, they are still pushed 5 feet away from you.
+
+If you are trying to push an object, treat the gust's Strength as 1d6 + your Charisma.
+
+The gust automatically extinguishes nonmagical fires and disperses fog in its path. For protected or magical flames, roll 1d6 and add your Charisma. If you equal or exceed 7, flames that are either magical or protected are extinguished. If you equal or exceed 12, flames that are magical and protected are also extinguished.
+
+No matter what you think, or what physics textbooks you use to "prove" it, this spell cannot move you. The laws of magic laugh at your paltry laws of physics. Any attempt to use this spell that relies on physics automatically fails (you still lose the action and take the [HP Reduction]). The spell resumes functioning normally when you cease being too creative for your own good.
+
 ## Magic Missile
 __Tier:__ 1; __Element:__ Metal;  
 __Casting Time:__ 2 AP; __Casting Cost:__ 5 [HP Reduction];  
@@ -144,6 +180,20 @@ The following table summarizes these changes for your ease:
 |8 |9 AP |40|65 |10
 |9 |10 AP|45|70 |11
 |10|11 AP|50|75 |12
+
+## Spell: Dowse
+__Tier:__ 1; __Element:__ Water;  
+__Casting Time:__ 3 AP; __Casting Cost:__ 1 [HP Reduction];  
+__Range__: 720 ft; __Duration:__ Instantaneous; __Target:__ Self;  
+__Description:__ You hold up your arms in front of you, feeling magical auras through them, and detecting the nearby presence of a number of objects. You can detect any of the objects listed at the end of the description, but only one per casting. 
+
+You detect the direction toward the most prominent example in range. If you are next to a stream and a large lake is in range, this spell detects the lake. If this spell finds a target, you may then make a spell attack roll to gain the extra information listed in parentheses. If you beat DC 20, you get 1 piece of information, +1 for every 5 by which you beat the DC.
+
+You can dowse for:
+ * Magical auras (the element; if the caster is within 4 levels of you, higher level, or lower level)
+ * Water (whether it is fresh- or saltwater; whether it is flowing or stagnant)
+ * Living plant matter, such as a tree or shrubbery (approximate size; approximate age; and health)
+ * Stone (whether it is natural or carved; whether it is disconnected from other stone or not)
 
 ## Cone of Cold
 __Tier:__ 1; __Element:__ Water;  
