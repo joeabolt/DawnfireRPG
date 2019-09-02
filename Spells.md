@@ -69,7 +69,11 @@ The following table summarizes these changes for your ease:
 __Tier:__ 1; __Element:__ Fire;  
 __Casting Time:__ 1 AP; __Casting Cost:__ 3 [HP Reduction];  
 __Range:__ Voice; __Duration:__ 3 [Rounds]; __Target:__ 1 creature;  
+<<<<<<< HEAD
 __Description:__ You point out one ally and speak a short, bold, inspiring incantation, boltering the target's courage and capability. They receive a +2 bonus to any two of the following for the duration, of your choice:
+=======
+__Description:__ You point out one ally and speak a short, bold, inspiring incantation, bolstering the target's courage and capability. They receive a +2 bonus to any two of the following that you choose:
+>>>>>>> Cleaning Spells.md for PR
 
 * Weapon attack rolls
 * Weapon damage rolls
@@ -80,7 +84,7 @@ __Description:__ You point out one ally and speak a short, bold, inspiring incan
 * Skill checks on one skill you choose
 * Ability checks with one ability score you choose
 
-You may cast this spell on the same target multiple times. The bonuses do not stack, but you may grant more bonuses through multiple castings. Each time you cast this spell on the same target, the duration resets for all bonuses affecting them.
+If you cast this spell on the same target while a previous casting is active, the bonuses do not stack. You may grant more types of bonuses through multiple castings. Each time you cast this spell on the same target, the duration resets for all bonuses affecting them.
 
 ## Control Object
 __Tier:__ 1; __Element:__ Earth;  
@@ -127,7 +131,11 @@ The following table summarizes these changes for your ease:
 ## Shield
 __Tier:__ 1; __Element:__ Earth;  
 __Casting Time:__ 1 AP; __Casting Cost:__ 5 [HP Reduction];  
+<<<<<<< HEAD
 __Range:__ Touch; __Duration:__ Sun, or until depleted; __Target:__ 1 creature;  
+=======
+__Range:__ Touch; __Duration:__ Encounter, or until depleted; __Target:__ 1 creature;  
+>>>>>>> Cleaning Spells.md for PR
 __Description:__ You summon a shield-sized plane of [Force] that automatically moves around a creature you designate, protecting them against harm. It provides a +2 bonus to AC while active, or +4 against ranged attacks. If you are targeted by the Magic Missile spell, the shield automatically negates it - the shield can do this 5 times, after which it is destroyed.
 
 You can cast this spell above 1st Tier. Each time you increase the tier, do the following:
@@ -215,7 +223,7 @@ __Casting Time:__ 3 AP; __Casting Cost:__ 1 [HP Reduction];
 __Range:__ 720 ft; __Duration:__ Instantaneous; __Target:__ Self;  
 __Description:__ You hold up your arms in front of you, feeling magical auras through them, and detecting the nearby presence of a number of objects. You can detect any of the objects listed at the end of the description, but only one per casting. 
 
-You detect the direction toward the most prominent example in range. If you are next to a stream and a large lake is in range, this spell detects the lake. If this spell finds a target, you may then make a spell attack roll to gain the extra information listed in parentheses. If you beat DC 20, you get 1 piece of information, +1 for every 5 by which you beat the DC.
+You detect the direction toward the most prominent example in range. If you are next to a stream and a large lake is in range, this spell detects the lake. If this spell finds a target, you may then make a spell attack roll to gain the extra information listed in parentheses. If you beat DC 20, you get 1 piece of information of your choice, +1 for every 5 by which you beat the DC.
 
 You can dowse for:
  * Magical auras (the element; if the caster is within 4 levels of you, higher level, or lower level)
@@ -303,7 +311,7 @@ If cast in a particularly fitting situation, such as in a graveyard under a new 
 ## Haste
 __Tier:__ 2; __Element:__ Wood;  
 __Casting Time:__ 3 AP; __Casting Cost:__ 7 [HP Reduction];  
-__Range:__ Eye; __Duration:__ [Encounter]; __Target:__ 1 creature;  
+__Range:__ Eye; __Duration:__ Encounter; __Target:__ 1 creature;  
 __Description:__ You lock eyes with the target and magically enhance their metabolism (and give them resistance to friction, et cetera), allowing them to move at increased speeds. Their movement speed increases by 15 feet. When they make 5-foot steps, they may move 5 feet farther. They receive a +1 bonus to AC, SR, and all attack rolls. Lastly, the increased movement speed grants a +4 bonus to Acrobatics checks to jump.
 
 You may cast this spell above 2nd Tier. Each time you increase the tier, make the following changes:
