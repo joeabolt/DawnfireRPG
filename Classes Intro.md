@@ -157,7 +157,7 @@ This progression is for characters without a dedicated class. It requires much g
 Unclassed characters receive 5 skill ranks each level which they may assign as they see fit.
 
 |Level|Feats|Magic Item|
-|---|---|---|---|
+|---|---|---|
 | 1 | 1 |   |
 | 2 | 2 |   |
 | 3 | 1 | X |
