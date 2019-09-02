@@ -69,11 +69,7 @@ The following table summarizes these changes for your ease:
 __Tier:__ 1; __Element:__ Fire;  
 __Casting Time:__ 1 AP; __Casting Cost:__ 3 [HP Reduction];  
 __Range:__ Voice; __Duration:__ 3 [Rounds]; __Target:__ 1 creature;  
-<<<<<<< HEAD
-__Description:__ You point out one ally and speak a short, bold, inspiring incantation, boltering the target's courage and capability. They receive a +2 bonus to any two of the following for the duration, of your choice:
-=======
 __Description:__ You point out one ally and speak a short, bold, inspiring incantation, bolstering the target's courage and capability. They receive a +2 bonus to any two of the following that you choose:
->>>>>>> Cleaning Spells.md for PR
 
 * Weapon attack rolls
 * Weapon damage rolls
@@ -131,11 +127,7 @@ The following table summarizes these changes for your ease:
 ## Shield
 __Tier:__ 1; __Element:__ Earth;  
 __Casting Time:__ 1 AP; __Casting Cost:__ 5 [HP Reduction];  
-<<<<<<< HEAD
-__Range:__ Touch; __Duration:__ Sun, or until depleted; __Target:__ 1 creature;  
-=======
 __Range:__ Touch; __Duration:__ Encounter, or until depleted; __Target:__ 1 creature;  
->>>>>>> Cleaning Spells.md for PR
 __Description:__ You summon a shield-sized plane of [Force] that automatically moves around a creature you designate, protecting them against harm. It provides a +2 bonus to AC while active, or +4 against ranged attacks. If you are targeted by the Magic Missile spell, the shield automatically negates it - the shield can do this 5 times, after which it is destroyed.
 
 You can cast this spell above 1st Tier. Each time you increase the tier, do the following:
