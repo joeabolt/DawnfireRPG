@@ -181,20 +181,6 @@ The following table summarizes these changes for your ease:
 |9 |10 AP|45|70 |11
 |10|11 AP|50|75 |12
 
-## Spell: Dowse
-__Tier:__ 1; __Element:__ Water;  
-__Casting Time:__ 3 AP; __Casting Cost:__ 1 [HP Reduction];  
-__Range__: 720 ft; __Duration:__ Instantaneous; __Target:__ Self;  
-__Description:__ You hold up your arms in front of you, feeling magical auras through them, and detecting the nearby presence of a number of objects. You can detect any of the objects listed at the end of the description, but only one per casting. 
-
-You detect the direction toward the most prominent example in range. If you are next to a stream and a large lake is in range, this spell detects the lake. If this spell finds a target, you may then make a spell attack roll to gain the extra information listed in parentheses. If you beat DC 20, you get 1 piece of information, +1 for every 5 by which you beat the DC.
-
-You can dowse for:
- * Magical auras (the element; if the caster is within 4 levels of you, higher level, or lower level)
- * Water (whether it is fresh- or saltwater; whether it is flowing or stagnant)
- * Living plant matter, such as a tree or shrubbery (approximate size; approximate age; and health)
- * Stone (whether it is natural or carved; whether it is disconnected from other stone or not)
-
 ## Cone of Cold
 __Tier:__ 1; __Element:__ Water;  
 __Casting Time:__ 2 AP; __Casting Cost:__ 5 [HP Reduction];  
@@ -223,10 +209,48 @@ The following table summarizes these changes for your ease:
 |9 |10 AP|45|55 |11d6|x9
 |10|11 AP|50|60 |12d6|x10
 
+## Spell: Dowse
+__Tier:__ 1; __Element:__ Water;  
+__Casting Time:__ 3 AP; __Casting Cost:__ 1 [HP Reduction];  
+__Range__: 720 ft; __Duration:__ Instantaneous; __Target:__ Self;  
+__Description:__ You hold up your arms in front of you, feeling magical auras through them, and detecting the nearby presence of a number of objects. You can detect any of the objects listed at the end of the description, but only one per casting. 
+
+You detect the direction toward the most prominent example in range. If you are next to a stream and a large lake is in range, this spell detects the lake. If this spell finds a target, you may then make a spell attack roll to gain the extra information listed in parentheses. If you beat DC 20, you get 1 piece of information, +1 for every 5 by which you beat the DC.
+
+You can dowse for:
+ * Magical auras (the element; if the caster is within 4 levels of you, higher level, or lower level)
+ * Water (whether it is fresh- or saltwater; whether it is flowing or stagnant)
+ * Living plant matter, such as a tree or shrubbery (approximate size; approximate age; and health)
+ * Stone (whether it is natural or carved; whether it is disconnected from other stone or not)
+
+## Harm
+__Tier:__ 1; __Element:__ Water;  
+__Casting Time:__ 2 AP; __Casting Cost:__ 5 [HP Reduction];  
+__Range:__ Touch; __Duration:__ Instantaneous; __Target:__ 1 creature;  
+__Description:__ Your hands burn with dark fire as you lay them on the subject. If the target resists, make a spell attack roll against the target's SR. This spell deals 1d6 + your Charisma [Negative] damage, +1d6 [Negative] if the target did not or failed to resist.
+
+You can cast Harm at a higher tier. Each time you increase the tier, do the following:
+* Increase the damage by 1d6 when you beat an opponent's SR or they do not resist.
+* Either:
+    * Increase the casting time by 1 AP, or
+    * Increase the casting cost by 5 [HP Reduction].
+
+## Heal
+__Tier:__ 1; __Element:__ Water;  
+__Casting Time:__ 2 AP; __Casting Cost:__ 5 [HP Reduction];  
+__Range:__ Touch; __Duration:__ Instantaneous; __Target:__ 1 creature;  
+__Description:__ Your hands glow with warm light as you lay them on the subject. If the target resists, make a spell attack roll against the target's SR. This spell deals 1d6 + your Charisma [Positive] damage, +1d6 [Positive] if the target did not or failed to resist.
+
+You can cast Heal at a higher tier. Each time you increase the tier, do the following:
+* Increase the damage by 1d6 when you beat an opponent's SR or they do not resist.
+* Either:
+    * Increase the casting time by 1 AP, or
+    * Increase the casting cost by 5 [HP Reduction].
+
 ## Message
 __Tier:__ 1; __Element:__ Water;  
 __Casting Time:__ 2 AP; __Casting Cost:__ 2 [HP Reduction];  
-__Range:__ Eye; __Duration:__ 5 minutes; __Target__: Up to 3 creatures;  
+__Range:__ Eye; __Duration:__ 5 minutes; __Target:__ Up to 3 creatures;  
 __Description:__ With quick, pointed glances you form a telepathic link between up to 3 creatures, possibly including yourself as one of the targets. This spell is silent to cast. Creatures linked telepathically can communicate at any distance. If you cast this spell multiple times, one entire link can be used as a target - allowing you to add 1 or 2 other creatures to it. When used this way, this spell also resets the duration on that link.
 
 ## Translation
