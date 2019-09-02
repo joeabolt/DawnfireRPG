@@ -39,7 +39,7 @@ _Spell Attack Roll = 1d20 + Intelligence + spell Tier + misc. bonuses_
 ## Fireball
 __Tier:__ 1; __Element:__ Fire;  
 __Casting Time:__ 2 AP; __Casting Cost:__ 5 [HP Reduction];  
-__Range:__ 30 feet; __Duration:__ Instantaneous; __Target__: 5-ft burst;  
+__Range:__ 30 feet; __Duration:__ Instantaneous; __Target:__ 5-ft burst;  
 __Description:__ Your point your finger and a small white bead of flame streaks forward, detonating in the target square in a burst of flame. Make a spell attack roll, and compare it to all targets' SR. This spell deals 1d6 + your Charisma [Fire] damage to all targets, +2d6 [Fire] to targets that did not resist.
 
 You can cast Fireball at a higher tier. Each time you increase the tier, do the following:
@@ -66,26 +66,26 @@ The following table summarizes these changes for your ease:
 |10|11 AP|50|120|30|12d6|x10
 
 ## Spell: Heroism
-__Tier__: 1; __Element:__ Fire;  
-__Casting Time__: 1 AP; __Casting Cost__: 3 [HP Reduction];  
-__Range__: Voice; __Duration__: 3 [Rounds]; __Target__: 1 creature  
+__Tier:__ 1; __Element:__ Fire;  
+__Casting Time:__ 1 AP; __Casting Cost:__ 3 [HP Reduction];  
+__Range:__ Voice; __Duration:__ 3 [Rounds]; __Target:__ 1 creature;  
 __Description:__ You point out one ally and speak a short, bold, inspiring incantation, boltering the target's courage and capability. They receive a +2 bonus to any two of the following for the duration, of your choice:
 
-* Martial attack rolls
-* Martial damage rolls
+* Weapon attack rolls
+* Weapon damage rolls
 * Spell attack rolls
 * Spell damage rolls
 * Armor Class
 * Spell Resistance
 * Skill checks on one skill you choose
-* Ability checks with one ability you choose
+* Ability checks with one ability score you choose
 
 You may cast this spell on the same target multiple times. The bonuses do not stack, but you may grant more bonuses through multiple castings. Each time you cast this spell on the same target, the duration resets for all bonuses affecting them.
 
 ## Control Object
 __Tier:__ 1; __Element:__ Earth;  
 __Casting Time:__ 2 AP; __Casting Cost:__ 5 [HP Reduction];  
-__Range:__ Voice; __Duration:__ 3 [Rounds]; __Target__: 1 inanimate object;
+__Range:__ Voice; __Duration:__ 3 [Rounds]; __Target:__ 1 inanimate object;
 __Description:__ You shout a command at an object, and it immediately moves to obey. This allows you to control the object, but it can only move in ways it is designed to - a door can swing on its hinges, a rope can move in almost any direction, and a lock can turn, but a sword cannot swing itself, a potion cannot uncork itself, and a rock cannot roll. If you cast this spell again while it is currently active, the first instance of the spell immediately ends.
 
 If you target an object in another creature's possession, you must make a spell attack roll against the possessor's SR. If you succeed, this spell works normally. If you fail, you may only issue a single swift command to the object - a book can slam shut or an unlocked chest can pop open, but a necklace cannot strangle its wearer, nor can a lock undo itself.
@@ -99,7 +99,7 @@ You may cast this spell above 1st tier. Each time you increase the tier:
 ## Lightning Bolt
 __Tier:__ 1; __Element:__ Earth;  
 __Casting Time:__ 2 AP; __Casting Cost:__ 5 [HP Reduction];  
-__Range:__ Personal; __Duration:__ Instantaneous; __Target__: 30-ft line;  
+__Range:__ Personal; __Duration:__ Instantaneous; __Target:__ 30-ft line;  
 __Description:__ Your point your finger and a bolt of lightning thunders forth, electrifying everything in its path. Make a spell attack roll, and compare it to all targets' SR. This spell deals 1d6 + your Charisma [Electricity] damage to all targets, +2d6 [Electricity] to targets that did not resist.
 
 You can cast Lightning Bolt at a higher tier. Each time you increase the tier, do the following:
@@ -128,10 +128,10 @@ The following table summarizes these changes for your ease:
 __Tier:__ 1; __Element:__ Earth;  
 __Casting Time:__ 1 AP; __Casting Cost:__ 5 [HP Reduction];  
 __Range:__ Touch; __Duration:__ Sun, or until depleted; __Target:__ 1 creature;  
-__Description:__ You summon a shield-sized plane of [Force] that automatically moves around a creature you designate to protect them against harm. It provides a +2 bonus to AC while active, increased to +4 against ranged attacks. If you are targeted by the Magic Missile spell, the shield automatically negates it - the shield can do this 5 times, after which it is destroyed.
+__Description:__ You summon a shield-sized plane of [Force] that automatically moves around a creature you designate, protecting them against harm. It provides a +2 bonus to AC while active, or +4 against ranged attacks. If you are targeted by the Magic Missile spell, the shield automatically negates it - the shield can do this 5 times, after which it is destroyed.
 
 You can cast this spell above 1st Tier. Each time you increase the tier, do the following:
-* Increase the number of missiles the shield can absorb by 1
+* Increase the number of Magic Missiles the shield can negate by 1
 
 ## Counterspell
 __Tier:__ 1; __Element:__ Metal;  
@@ -156,7 +156,7 @@ No matter what you think, or what physics textbooks you use to "prove" it, this 
 ## Magic Missile
 __Tier:__ 1; __Element:__ Metal;  
 __Casting Time:__ 2 AP; __Casting Cost:__ 5 [HP Reduction];  
-__Range:__ 30 feet; __Duration:__ Instantaneous; __Target__: 3 magical darts;  
+__Range:__ 30 feet; __Duration:__ Instantaneous; __Target:__ 3 magical darts;  
 __Description:__ You sweep your hand outward, throwing out 3 darts of pure force that speed unerringly to their targets. This spell deals 1d6 [Force] damage with each dart. You can send multiple darts to the same target if you so choose.
 
 You can cast Lightning Bolt at a higher tier. Each time you increase the tier, do the following:
@@ -184,7 +184,7 @@ The following table summarizes these changes for your ease:
 ## Cone of Cold
 __Tier:__ 1; __Element:__ Water;  
 __Casting Time:__ 2 AP; __Casting Cost:__ 5 [HP Reduction];  
-__Range:__ Personal; __Duration:__ Instantaneous; __Target__: 15-ft cone;  
+__Range:__ Personal; __Duration:__ Instantaneous; __Target:__ 15-ft cone;  
 __Description:__ You wave your hand and a wave of hoarfrost pours forth. Make a spell attack roll, and compare it to all targets' SR. This spell deals 1d6 + your Charisma [Cold] damage to all targets, +2d6 [Cold] to targets that did not resist.
 
 You can cast Cone of Cold at a higher tier. Each time you increase the tier, do the following:
@@ -212,7 +212,7 @@ The following table summarizes these changes for your ease:
 ## Spell: Dowse
 __Tier:__ 1; __Element:__ Water;  
 __Casting Time:__ 3 AP; __Casting Cost:__ 1 [HP Reduction];  
-__Range__: 720 ft; __Duration:__ Instantaneous; __Target:__ Self;  
+__Range:__ 720 ft; __Duration:__ Instantaneous; __Target:__ Self;  
 __Description:__ You hold up your arms in front of you, feeling magical auras through them, and detecting the nearby presence of a number of objects. You can detect any of the objects listed at the end of the description, but only one per casting. 
 
 You detect the direction toward the most prominent example in range. If you are next to a stream and a large lake is in range, this spell detects the lake. If this spell finds a target, you may then make a spell attack roll to gain the extra information listed in parentheses. If you beat DC 20, you get 1 piece of information, +1 for every 5 by which you beat the DC.
@@ -251,18 +251,18 @@ You can cast Heal at a higher tier. Each time you increase the tier, do the foll
 __Tier:__ 1; __Element:__ Water;  
 __Casting Time:__ 2 AP; __Casting Cost:__ 2 [HP Reduction];  
 __Range:__ Eye; __Duration:__ 5 minutes; __Target:__ Up to 3 creatures;  
-__Description:__ With quick, pointed glances you form a telepathic link between up to 3 creatures, possibly including yourself as one of the targets. This spell is silent to cast. Creatures linked telepathically can communicate at any distance. If you cast this spell multiple times, one entire link can be used as a target - allowing you to add 1 or 2 other creatures to it. When used this way, this spell also resets the duration on that link.
+__Description:__ With quick, pointed glances you form a telepathic link between up to 3 creatures, possibly including yourself as one of the targets. This spell is silent to cast. Creatures linked telepathically can communicate at any distance. If you cast this spell multiple times, one entire link can be used as a target - this allows you to add 1 or 2 other creatures to it. When used this way, this spell also resets the duration on that link.
 
 ## Translation
 __Tier:__ 2; __Element:__ Water;  
 __Casting Time:__ 3 AP; __Casting Cost:__ 10 [HP Reduction];  
-__Range:__ Personal; __Duration:__ Sun; __Target__: You;  
+__Range:__ Personal; __Duration:__ Sun; __Target:__ Self;  
 __Description:__ A quick word and passing a hand over your face allows you to understand any language you read or hear until the sun next sets or rises. This does not let you speak or write these languages. Particularly arcane languages may still elude this spell - notably, Faerie and Celestial tongues.
 
 ## Acid Cloak
 __Tier:__ 1; __Element:__ Wood;  
 __Casting Time:__ 2 AP; __Casting Cost:__ 5 [HP Reduction];  
-__Range:__ Personal; __Duration:__ 3 [Rounds]; __Target__: 5-ft aura;  
+__Range:__ Personal; __Duration:__ 3 [Rounds]; __Target:__ 5-ft aura;  
 __Description:__ With a word and quick gesture, vitriolic mist gathers around you. This spell deals 1d6 + your Charisma [Acid] damage to all targets. At the beginning of your turn each [Round] the spell is active, deal this damage again to all targets in range. This spell does not stack, but casting it while it is active resets the duration.
 
 You can cast Acid CLoak at a higher tier. Each time you increase the tier, do the following:
@@ -298,7 +298,7 @@ You may cast this spell above 1st Tier. Each time you increase the tier, make th
 * Increase the radius by 5 feet
 * Increase the casting cost by 2 [HP Reduction]
 
-If cast in a particularl fitting situation, such as in a graveyard under a new moon or in the heart of a swamp at dusk, your GM may give you one free Tier increase (even if you could not normally cast at that Tier). This increases the range and radius, but not the cost.
+If cast in a particularly fitting situation, such as in a graveyard under a new moon or in the heart of a swamp at dusk, your GM may give you one free Tier increase (even if you could not normally cast at that Tier). This increases the range and radius, but not the cost.
 
 ## Haste
 __Tier:__ 2; __Element:__ Wood;  
