@@ -10,7 +10,7 @@ One inventory slot is an intentionally ambiguous measure - an unwieldy item is j
 * __Robes__ take 1 inventory slot if you do not have armor; if you have armor, they take none.
 * __Light and medium armors and shields__ take 1 inventory slot.
 * __Heavy armor__ takes 2 inventory slots.
-* Items the size of your first or smaller do not need to be tracked - all together they take 1 inventory slot. If you have more than 10, the GM is within their right to make you rummage through your pockets looking for something. Abusing this rule results in your objects weighing more.
+* Items the size of your fist or smaller do not need to be tracked - all together they take 1 inventory slot. If you have more than 10, the GM is within their right to make you rummage through your pockets looking for something. Abusing this rule results in your objects weighing more.
 * Coin-sized or smaller items take 1 inventory slot all together, but do not count against the "small item clutter limit".
 * A non-struggling creature one size category smaller than you takes 2 inventory slots.
 * Large, unwieldy items such as dragon heads or mid-sized chests take 2 inventory slots.
