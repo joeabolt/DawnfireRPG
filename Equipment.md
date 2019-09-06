@@ -4,7 +4,7 @@ Critically important to every adventurer is their equipment. Hence, this section
 ## Carrying Capacity and Inventory
 You have 3 + your Strength inventory slots. If your Constitution is 5 or more, you get one more slot. If your Intelligence is 5 or more, you get one more slot (from balancing weight more effectively).
 
-One inventory slot is an intentionally ambiguous measure - an unwieldy item is just as difficult to transport as a heavy one. For most items, you can use these rules to figure out how much space it takes. Otherwise, consult your GM and use your best guess.
+One inventory slot is an intentionally ambiguous unit - an unwieldy item is just as difficult to transport as a heavy one. For most items, you can use these rules to figure out how much space it takes. Otherwise, consult your GM and use your best guess.
 * __Weapons__ usually take 1 inventory slot. That is, a roughly stick-shaped object longer than two feet.
     * Small weapons and wands can be paired. Two daggers are 1 inventory slot, as are two wands.
 * __Robes__ take 1 inventory slot if you do not have armor; if you have armor, they take none.
@@ -24,30 +24,32 @@ If you exceed your inventory slots by 1 or 2, you are encumbered. Your movement 
 If you exceed your inventory slots by 3 or more, you are grounded. You can only move 5 feet per [Round], automatically fail physical or combat skill checks, have a -12 penalty to attacks rolls, AC, and SR, and take 1d6 [HP Reduction] per [Round] as the weight slowly crushes you. Your muscles are going to cramp something fierce, m'dude.
 
 ## Martial Weapons
-A weapon is a tool or device designed to inflict physical harm on another creature. While we could write an entire tome dedicated to the intricacies of different weapons and forging techniques and alloys, we decided to simplify it somewhat.
+A weapon is a tool or device designed to inflict physical harm on another creature. These can take a wide variety of forms. For a quick start, use one of the pre-made weapons below.
 
-A weapon's base statistics are based on two factors: its size, how it deals damage, and the material of its damaging part. Start by looking it up on the following table:
+However, if your adventurer wants to wield something a little different, the following table and modifiers can be used to design new weapons. For an even more in depth guide for making mid- to high-tier weapons, see the smithing guide which allows for varying materials, alloying, forging techniques, and everything else an analysis paralytic could desire.
+
+First, select a weapon size and damage type:
 
 |Size|Type|Base Damage|Crit Thresh|Crit Mult|Range|# Weapon Modifiers|
-|---|---|---|---|---|---|---|
-|Less than 18 inches|Bludgeoning|1d6 |20|3| 5 ft. |1|
-|(Short - 1 hand)   | Slashing  |1d6 |19|2| 5 ft. |1|
-|                   | Piercing  |1d4 |18|4| 5 ft. |1|
-|                   |  Ranged   |1d6 |19|3|30 ft. |1|
-|18 inches to 3 feet|Bludgeoning|1d8 |20|3| 5 ft. |2|
-|(Medium - 1 hand)  | Slashing  |1d8 |19|2| 5 ft. |2|
-|                   | Piercing  |1d6 |18|4| 5 ft. |2|
-|                   |  Ranged   |1d8 |19|3|60 ft. |2|
-|3 feet to 5 feet   |Bludgeoning|2d8 |20|3| 5 ft. |2|
-|(Long - 1 hand)    | Slashing  |2d8 |19|2| 5 ft. |2|
-|                   | Piercing  |2d6 |18|4| 5 ft. |2|
-|                   |  Ranged   |2d8 |20|4|120 ft.|2|
-|Greater than 5 feet|Bludgeoning|3d8 |20|3| 5 ft. |3|
-|(Huge - 2 hands)   | Slashing  |2d12|19|2| 5 ft. |3|
-|                   | Piercing  |3d6 |18|4| 5 ft. |3|
-|                   |  Ranged   |2d12|20|4|300 ft.|3|
+|----|----|-----------|-----------|---------|-----|------------------|
+|Less than 18 inches|Bludgeoning|1d8 |20|3|  5 ft.|1|
+|(Short - 1 hand)   |Slashing   |1d8 |19|2|  5 ft.|1|
+|                   |Piercing   |1d6 |18|4|  5 ft.|1|
+|                   |Ranged     |1d8 |19|3| 30 ft.|1|
+|18 inches to 3 feet|Bludgeoning|2d6 |20|3|  5 ft.|2|
+|(Medium - 1 hand)  |Slashing   |2d6 |19|2|  5 ft.|2|
+|                   |Piercing   |1d10|18|4|  5 ft.|2|
+|                   |Ranged     |2d6 |19|3| 60 ft.|2|
+|3 feet to 5 feet   |Bludgeoning|2d10|20|3|  5 ft.|2|
+|(Long - 1 hand)    |Slashing   |2d8 |19|2|  5 ft.|2|
+|                   |Piercing   |2d8 |18|4|  5 ft.|2|
+|                   |Ranged     |2d10|20|4|120 ft.|2|
+|Greater than 5 feet|Bludgeoning|3d10|20|3|  5 ft.|3|
+|(Huge - 2 hands)   |Slashing   |3d8 |19|2|  5 ft.|3|
+|                   |Piercing   |2d10|18|4|  5 ft.|3|
+|                   |Ranged     |3d8 |20|4|300 ft.|3|
 
-You can then select the number of weapons modifiers indicated in the base stats table to further customize your weapon:
+Second, select the number of weapons modifiers indicated in the base stats table (1 for short weapons, 2 for medium and long, and 3 for huge).
 
 * __[Brutal]__: Add one-half your level to the damage, rounding down. If taken twice, add your level to the damage.
 * __[Deft]__: While wielding this weapon, add +2 to your initiative and a +1 bonus to attack rolls with the weapon.
@@ -59,27 +61,27 @@ You can then select the number of weapons modifiers indicated in the base stats 
 * __[Reach]__: On melee weapons greater than 5 feet in length, increase the range to 10 feet. On Ranged weapons, double the range.
 
 #### Dice Ranks
-|Dice|Average|||Dice|Average|
-|----|-------|---|---|---|---|
-|3d12| (19.5)|||2d6 |  (7)  ||
-|3d10| (16.5)|||1d12| (6.5) ||
-|3d8 | (13.5)|||1d10| (5.5) ||
-|2d12| (13)  |||2d4 |  (5)  ||
-|2d10| (11)  |||1d8 | (4.5) ||
-|3d6 | (10.5)|||1d6 | (3.5) ||
-|2d8 |  (9)  |||1d4 | (2.5) ||
-|3d4 | (7.5) ||
-
+|Dice|Average|
+|----|----|
+|1d6 | 3.5|
+|1d8 | 4.5|
+|1d10| 5.5|
+|2d6 |   7|
+|2d8 |   9|
+|2d10|  11|
+|3d8 |13.5|
+|3d10|16.5|
+|3d12|19.5|
 
 ### Example Weapons
-* __Greataxe__ is a [Brutal 2] [Devastating] Huge Slashing weapon. Its damage is 2d12 + Strength + your level, critical 19-20 x3, range 5 feet.
+* __Greataxe__ is a [Brutal 2] [Devastating] Huge Slashing weapon. Its damage is 3d8 + Strength + your level, critical 19-20 x3, range 5 feet.
 * __Lance__ is a [Devastating] [Reach] [Heavy] Huge Piercing weapon. Its damage is 2d10 + Strength, critical 18-20 x5, -2 on attack rolls, range 10 feet.
-* __Longbow__ is a [Brutal 2] [Reach] Huge Ranged weapon. Its damage is 2d12 + Strength + level, critical 20 x4, range 600 feet.
+* __Longbow__ is a [Brutal 2] [Reach] Huge Ranged weapon. Its damage is 3d8 + Strength + level, critical 20 x4, range 600 feet.
 * __Longsword__ is a [Brutal] [Parrying] Long Slashing weapon. With it, your AC is 2 higher. Its damage is 2d8 + Strength + one-half your level, critical 19-20 x2, range 5 feet.
-* __Quarterstaff__ is a [Deft] [Parrying] Long Bludgeoning weapon, requiring 2 hands. With it, your initiative and AC are 2 higher. It has a +1 to attack rolls, damage 2d8 + Strength, critical 20 x3, range 5 feet.
-* __Rapier__ is a [Heartseeker] [Parrying] Medium Piercing weapon. With it, your AC is 2 higher. Its damage is 1d6 + Strength, critical 17-20 x4, range 5 feet.
-* __Shiv__ is a [Deft] Short Piercing weapon. With it, your initiative is 2 higher. It has a +1 to attack rolls, damage 1d4 + Strength, critical 19-20 x5, range 5 feet.
-* __Shortbow__ is a [Brutal] [Heartseeker] Medium Ranged weapon. Its damage is 1d8 + Strength, critical 19-20 x3, range 60 feet.
+* __Quarterstaff__ is a [Deft] [Parrying] Long Bludgeoning weapon, requiring 2 hands. With it, your initiative and AC are 2 higher. It has a +1 to attack rolls, damage 2d10 + Strength, critical 20 x3, range 5 feet.
+* __Rapier__ is a [Heartseeker] [Parrying] Medium Piercing weapon. With it, your AC is 2 higher. Its damage is 1d10 + Strength, critical 17-20 x4, range 5 feet.
+* __Shiv__ is a [Deft] Short Piercing weapon. With it, your initiative is 2 higher. It has a +1 to attack rolls, damage 1d6 + Strength, critical 19-20 x5, range 5 feet.
+* __Shortbow__ is a [Brutal] [Heartseeker] Medium Ranged weapon. Its damage is 2d6 + Strength, critical 19-20 x3, range 60 feet.
 * __Sling__ is a [Heavy] Short Ranged weapon. Its damage is 1d8 + Strength, -2 on attack rolls, critical 19-20 x3, range 30 feet.
 
 ## Magic Weapons
@@ -95,7 +97,7 @@ By default, a magic weapon deals [Force] damage. As magical attacks, they use sp
 | Rod |2d8|20|2|60 ft. |
 |Staff|3d8|20|2|120 ft.|
 
-#### Magic Weapn Properties
+#### Magic Weapon Properties
 * __[Brutal]__: Add one-half your level to the damage, rounding down. If taken twice, add your level to the damage. If taken three times, also increase the damage by 1d8.
 * __[Deft]__: While wielding this weapon, add +2 to your initiative.
 * __[Devastating]__: Increase the critical multiplier by 1.
@@ -114,8 +116,8 @@ By default, a magic weapon deals [Force] damage. As magical attacks, they use sp
 Armor is any sort of worn equipment to protect yourself against physical harm. Armor is sorted into three categories: light, medium, and heavy. Shields likewise come in the following categories: light, heavy, and tower. In addition, the material of your armor makes a big difference in how much protection it grants and how much mobility you retain.
 
 * _Leather_ armors are made from leather, hide, lamellar, wood, cloth, or other non-metal, reasonably flexible components.
-* _Metal_ armors are made from metal plates and mail. Chain mail, scale mail, and full plate mail are the classic examples.
 * _Piecemeal_ armors use leather and metal components where each is most appropriate, typically leather over joints and hands with metal over the body.
+* _Metal_ armors are made from metal plates and mail. Chain mail, scale mail, and full plate mail are the classic examples.
 * _Hybrid_ armors use both leather and metal over the entire body, such as chain maille with a leather gambison underneath. They are realistic and effective.
 
 The exact nature of your armor does not matter - that your light leather armor is actually just layers of quilted cloth or a thick leather cuirass makes no difference. Feel free to add flavor to these armors as you feel appropriate.
@@ -124,26 +126,30 @@ __Vulnerability__ is an optional rule for players who want excessive realism. It
 
 |Armor|AC Bonus|Move Cost|Vulnerability|
 |---|---|---|---|
-|  Light Leather   |+2 |0 ft. |
+|  Light Leather   |+2 |0 ft. |5 [Slashing]
 | Light Piecemeal  |+3 |0 ft. |
 |   Light Metal    |+3 |5 ft. |
 |   Light Hybrid   |+4 |0 ft. |
-|  Medium Leather  |+5 |0 ft. |
+|  Medium Leather  |+5 |0 ft. |2 [Slashing]
 | Medium Piecemeal |+6 |0 ft. |2 [Piercing]
-|   Medium Metal   |+7 |5 ft. |
+|   Medium Metal   |+7 |5 ft. |2 [Bludgeoning]
 |  Medium Hybrid   |+8 |5 ft. |
 |  Heavy Leather   |+9 |0 ft. |
 | Heavy Piecemeal  |+10|5 ft. |5 [Piercing]
 |   Heavy Metal    |+11|10 ft.|5 [Bludgeoning]
 |   Heavy Hybrid   |+12|10 ft.|
+
+|Shield|AC Bonus|Move Cost|Vulnerability|
+|---|---|---|---|
 |Light Wood Shield |+1 |0 ft. |
-|Light Metal Shield|+1 |0 ft. |
+|Light Metal Shield|+2 |0 ft. |
 |Heavy Wood Shield |+3 |0 ft. |
-|Heavy Metal Shield|+3 |0 ft. |
-|Tower Wood Shield |+7 |5 ft. |
+|Heavy Metal Shield|+4 |5 ft. |
+|Tower Wood Shield |+7 |10 ft.|
+|Tower Metal Shield|+9 |15 ft.|
 
 ## Robes
-Robes are the magical equivalent of armor. They are given low-grade enchantments and sewn with small lead discs in them to provide a resistance to magic. In order to make the enchantments go, many robes require a small amount of your life energy - this reduces your hit points, but can easily be restored by taking off the robe.
+Robes are the magical equivalent of armor. They are given low-grade enchantments and sewn with small lead discs in them to provide a resistance to magic. In order to power the enchantments, many robes require a small amount of your life energy - this reduces your hit points, but can easily be restored by taking off the robe.
 
 Robes come in three categories - conventionally called white, grey, and black, though the robes can be any color. Each category is designed for progressively stronger mages more able to handle the health costs. Within a category, there are four forms:
 
