@@ -28,26 +28,26 @@ A weapon is a tool or device designed to inflict physical harm on another creatu
 
 A weapon's base statistics are based on two factors: its size, how it deals damage, and the material of its damaging part. Start by looking it up on the following table:
 
-|Size|Type|Base Damage|Crit Thresh|Crit Mult|Range|
-|---|---|---|---|---|---|
-|Less than 18 inches|Bludgeoning|1d6 |20|3| 5 ft. |
-|(Short - 1 hand)   | Slashing  |1d6 |19|2| 5 ft. |
-|                   | Piercing  |1d4 |18|4| 5 ft. |
-|                   |  Ranged   |1d6 |19|3|30 ft. |
-|18 inches to 3 feet|Bludgeoning|1d8 |20|3| 5 ft. |
-|(Medium - 1 hand)  | Slashing  |1d8 |19|2| 5 ft. |
-|                   | Piercing  |1d6 |18|4| 5 ft. |
-|                   |  Ranged   |1d8 |19|3|60 ft. |
-| 3 feet to 5 feet  |Bludgeoning|2d8 |20|3| 5 ft. |
-|(Long - 1 hand)    | Slashing  |2d8 |19|2| 5 ft. |
-|                   | Piercing  |2d6 |18|4| 5 ft. |
-|                   |  Ranged   |2d8 |20|4|120 ft.|
-|Greater than 5 feet|Bludgeoning|3d8 |20|3| 5 ft. |
-|(Huge - 2 hands)   | Slashing  |2d12|19|2| 5 ft. |
-|                   | Piercing  |3d6 |18|4| 5 ft. |
-|                   |  Ranged   |2d12|20|4|300 ft.|
+|Size|Type|Base Damage|Crit Thresh|Crit Mult|Range|# Weapon Modifiers|
+|---|---|---|---|---|---|---|
+|Less than 18 inches|Bludgeoning|1d6 |20|3| 5 ft. |1|
+|(Short - 1 hand)   | Slashing  |1d6 |19|2| 5 ft. |1|
+|                   | Piercing  |1d4 |18|4| 5 ft. |1|
+|                   |  Ranged   |1d6 |19|3|30 ft. |1|
+|18 inches to 3 feet|Bludgeoning|1d8 |20|3| 5 ft. |2|
+|(Medium - 1 hand)  | Slashing  |1d8 |19|2| 5 ft. |2|
+|                   | Piercing  |1d6 |18|4| 5 ft. |2|
+|                   |  Ranged   |1d8 |19|3|60 ft. |2|
+|3 feet to 5 feet   |Bludgeoning|2d8 |20|3| 5 ft. |2|
+|(Long - 1 hand)    | Slashing  |2d8 |19|2| 5 ft. |2|
+|                   | Piercing  |2d6 |18|4| 5 ft. |2|
+|                   |  Ranged   |2d8 |20|4|120 ft.|2|
+|Greater than 5 feet|Bludgeoning|3d8 |20|3| 5 ft. |3|
+|(Huge - 2 hands)   | Slashing  |2d12|19|2| 5 ft. |3|
+|                   | Piercing  |3d6 |18|4| 5 ft. |3|
+|                   |  Ranged   |2d12|20|4|300 ft.|3|
 
-You can then select any two of the following properties to further customize your weapon:
+You can then select the number of weapons modifiers indicated in the base stats table to further customize your weapon:
 
 * __[Brutal]__: Add one-half your level to the damage, rounding down. If taken twice, add your level to the damage.
 * __[Deft]__: While wielding this weapon, add +2 to your initiative and a +1 bonus to attack rolls with the weapon.
@@ -72,15 +72,15 @@ You can then select any two of the following properties to further customize you
 
 
 ### Example Weapons
-* __Greataxe__ is a [Brutal 2] Huge Slashing weapon. Its damage is 2d12 + Strength + your level, critical 19-20 x2, range 5 feet.
-* __Lance__ is a [Devastating] [Reach] Huge Piercing weapon. Its damage is 3d6 + Strength, critical 18-20 x5, range 10 feet.
-* __Longbow__ is a [Brutal 2] Huge Ranged weapon. Its damage is 2d12 + Strength + level, critical 20 x4, range 300 feet.
+* __Greataxe__ is a [Brutal 2] [Devastating] Huge Slashing weapon. Its damage is 2d12 + Strength + your level, critical 19-20 x3, range 5 feet.
+* __Lance__ is a [Devastating] [Reach] [Heavy] Huge Piercing weapon. Its damage is 2d10 + Strength, critical 18-20 x5, -2 on attack rolls, range 10 feet.
+* __Longbow__ is a [Brutal 2] [Reach] Huge Ranged weapon. Its damage is 2d12 + Strength + level, critical 20 x4, range 600 feet.
 * __Longsword__ is a [Brutal] [Parrying] Long Slashing weapon. With it, your AC is 2 higher. Its damage is 2d8 + Strength + one-half your level, critical 19-20 x2, range 5 feet.
 * __Quarterstaff__ is a [Deft] [Parrying] Long Bludgeoning weapon, requiring 2 hands. With it, your initiative and AC are 2 higher. It has a +1 to attack rolls, damage 2d8 + Strength, critical 20 x3, range 5 feet.
 * __Rapier__ is a [Heartseeker] [Parrying] Medium Piercing weapon. With it, your AC is 2 higher. Its damage is 1d6 + Strength, critical 17-20 x4, range 5 feet.
-* __Shiv__ is a [Deft] [Devastating] Short Piercing weapon. With it, your initiative is 2 higher. It has a +1 to attack rolls, damage 1d4 + Strength, critical 18-20 x5, range 5 feet.
+* __Shiv__ is a [Deft] Short Piercing weapon. With it, your initiative is 2 higher. It has a +1 to attack rolls, damage 1d4 + Strength, critical 19-20 x5, range 5 feet.
 * __Shortbow__ is a [Brutal] [Heartseeker] Medium Ranged weapon. Its damage is 1d8 + Strength, critical 19-20 x3, range 60 feet.
-* __Sling__ is a [Heavy] [Brutal] Short Ranged weapon. Its damage is 1d8 + Strength + one-half level, critical 19-20 x3, range 30 feet.
+* __Sling__ is a [Heavy] Short Ranged weapon. Its damage is 1d8 + Strength, -2 on attack rolls, critical 19-20 x3, range 30 feet.
 
 ## Magic Weapons
 You may be looking for enchanted weapons, which are located elsewhere. This is for weapons normally associated with magic-users - the basic wands and staves they use, equivalent to a fighter's longsword or a rogue's crossbow.
