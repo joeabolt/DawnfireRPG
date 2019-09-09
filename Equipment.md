@@ -32,46 +32,34 @@ First, select a weapon size and damage type:
 
 |Size|Type|Base Damage|Crit Thresh|Crit Mult|Range|# Weapon Modifiers|
 |----|----|-----------|-----------|---------|-----|------------------|
-|Less than 18 inches|Bludgeoning|1d8 |20|3|  5 ft.|1|
-|(Short - 1 hand)   |Slashing   |1d8 |19|2|  5 ft.|1|
-|                   |Piercing   |1d6 |18|4|  5 ft.|1|
-|                   |Ranged     |1d8 |19|3| 30 ft.|1|
-|18 inches to 3 feet|Bludgeoning|2d6 |20|3|  5 ft.|2|
-|(Medium - 1 hand)  |Slashing   |2d6 |19|2|  5 ft.|2|
-|                   |Piercing   |1d10|18|4|  5 ft.|2|
-|                   |Ranged     |2d6 |19|3| 60 ft.|2|
-|3 feet to 5 feet   |Bludgeoning|2d10|20|3|  5 ft.|2|
+|Less than 18 inches|Bludgeoning|1d6 |20|3|  5 ft.|1|
+|(Short - 1 hand)   |Slashing   |1d6 |19|2|  5 ft.|1|
+|                   |Piercing   |1d4 |18|4|  5 ft.|1|
+|                   |Ranged     |1d6 |19|3| 30 ft.|1|
+|18 inches to 3 feet|Bludgeoning|1d8 |20|3|  5 ft.|2|
+|(Medium - 1 hand)  |Slashing   |1d8 |19|2|  5 ft.|2|
+|                   |Piercing   |1d6 |18|4|  5 ft.|2|
+|                   |Ranged     |1d8 |19|3| 60 ft.|2|
+|3 feet to 5 feet   |Bludgeoning|2d8 |20|3|  5 ft.|2|
 |(Long - 1 hand)    |Slashing   |2d8 |19|2|  5 ft.|2|
-|                   |Piercing   |2d8 |18|4|  5 ft.|2|
-|                   |Ranged     |2d10|20|4|120 ft.|2|
-|Greater than 5 feet|Bludgeoning|3d10|20|3|  5 ft.|3|
-|(Huge - 2 hands)   |Slashing   |3d8 |19|2|  5 ft.|3|
-|                   |Piercing   |2d10|18|4|  5 ft.|3|
-|                   |Ranged     |3d8 |20|4|300 ft.|3|
+|                   |Piercing   |2d6 |18|4|  5 ft.|2|
+|                   |Ranged     |2d8 |20|4|120 ft.|2|
+|Greater than 5 feet|Bludgeoning|3d8 |20|3|  5 ft.|3|
+|(Huge - 2 hands)   |Slashing   |2d12|19|2|  5 ft.|3|
+|                   |Piercing   |3d6 |18|4|  5 ft.|3|
+|                   |Ranged     |2d12|20|4|300 ft.|3|
 
 Second, select the number of weapons modifiers indicated in the base stats table (1 for short weapons, 2 for medium and long, and 3 for huge).
 
-* __[Brutal]__: Add one-half your level to the damage, rounding down. If taken twice, add your level to the damage.
+* __[Heavy]__: Increase the damage by one half your level rounding down. You have a -1 penalty on all attack rolls with the weapon. If a Long weapon, it now requires 2 hands to wield.
+* __[Light]__: Decrease the damage by one half your level rounding down. You have a +2 bonus on all attack rolls with the weapon.
 * __[Deft]__: While wielding this weapon, add +2 to your initiative and a +1 bonus to attack rolls with the weapon.
 * __[Devastating]__: Increase the critical multiplier by 1.
 * __[Heartseeker]__: Decrease the critical threshold by 1.
-* __[Heavy]__: Increase the damage dice by 1 rank. You have a -2 penalty on all attack rolls with the weapon. If a Long weapon, it now requires 2 hands to wield.
-* __[Light]__: Decrease the damage dice by 1 rank. You have a +2 bonus on all attack rolls with the weapon.
 * __[Parrying]__: Add +2 to your Armor Class while wielding this weapon.
 * __[Reach]__: On melee weapons greater than 5 feet in length, increase the range to 10 feet. On Ranged weapons, double the range.
-
-#### Dice Ranks
-|Dice|Average|
-|----|----|
-|1d6 | 3.5|
-|1d8 | 4.5|
-|1d10| 5.5|
-|2d6 |   7|
-|2d8 |   9|
-|2d10|  11|
-|3d8 |13.5|
-|3d10|16.5|
-|3d12|19.5|
+* __[Balanced]__: A 2 handed weapon becomes 1 handed, -2 penalty on all attack rolls with the weapon.
+* __[Concealed]__: Treat the weapon as one size smaller for the purposes of concealment.
 
 ### Example Weapons
 * __Greataxe__ is a [Brutal 2] [Devastating] Huge Slashing weapon. Its damage is 3d8 + Strength + your level, critical 19-20 x3, range 5 feet.
