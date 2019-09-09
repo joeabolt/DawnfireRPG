@@ -75,12 +75,12 @@ Second, select the number of weapons modifiers indicated in the base stats table
 
 ### Example Weapons
 * __Greataxe__ is a [Brutal 2] [Devastating] Huge Slashing weapon. Its damage is 3d8 + Strength + your level, critical 19-20 x3, range 5 feet.
-* __Lance__ is a [Devastating] [Reach] [Heavy] Huge Piercing weapon. Its damage is 2d10 + Strength, critical 18-20 x5, -2 on attack rolls, range 10 feet.
+* __Lance__ is a [Devastating] [Reach] [Parrying] Huge Piercing weapon. You have +2 AC while weilding this weapon. Its damage is 2d8 + Strength, critical 18-20 x5, -2 on attack rolls, range 10 feet.
 * __Longbow__ is a [Brutal 2] [Reach] Huge Ranged weapon. Its damage is 3d8 + Strength + level, critical 20 x4, range 600 feet.
 * __Longsword__ is a [Brutal] [Parrying] Long Slashing weapon. With it, your AC is 2 higher. Its damage is 2d8 + Strength + one-half your level, critical 19-20 x2, range 5 feet.
 * __Quarterstaff__ is a [Deft] [Parrying] Long Bludgeoning weapon, requiring 2 hands. With it, your initiative and AC are 2 higher. It has a +1 to attack rolls, damage 2d10 + Strength, critical 20 x3, range 5 feet.
 * __Rapier__ is a [Heartseeker] [Parrying] Medium Piercing weapon. With it, your AC is 2 higher. Its damage is 1d10 + Strength, critical 17-20 x4, range 5 feet.
-* __Shiv__ is a [Deft] Short Piercing weapon. With it, your initiative is 2 higher. It has a +1 to attack rolls, damage 1d6 + Strength, critical 19-20 x5, range 5 feet.
+* __Shiv__ is a [Devastating] Short Piercing weapon. It has damage 1d6 + Strength, critical 19-20 x5, range 5 feet.
 * __Shortbow__ is a [Brutal] [Heartseeker] Medium Ranged weapon. Its damage is 2d6 + Strength, critical 19-20 x3, range 60 feet.
 * __Sling__ is a [Heavy] Short Ranged weapon. Its damage is 1d8 + Strength, -2 on attack rolls, critical 19-20 x3, range 30 feet.
 
@@ -141,12 +141,11 @@ __Vulnerability__ is an optional rule for players who want excessive realism. It
 
 |Shield|AC Bonus|Move Cost|Vulnerability|
 |---|---|---|---|
-|Light Wood Shield |+1 |0 ft. |
-|Light Metal Shield|+2 |0 ft. |
-|Heavy Wood Shield |+3 |0 ft. |
-|Heavy Metal Shield|+4 |5 ft. |
-|Tower Wood Shield |+7 |10 ft.|
-|Tower Metal Shield|+9 |15 ft.|
+|Light Wood Shield |+1 |0 ft. |5 [Fire]
+|Light Metal Shield|+1 |0 ft. |5 [Electricity]
+|Heavy Wood Shield |+3 |0 ft. |2 [Fire]
+|Heavy Metal Shield|+3 |5 ft. |2 [Electricity]
+|Tower Wood Shield |+5 |10 ft.|
 
 ## Robes
 Robes are the magical equivalent of armor. They are given low-grade enchantments and sewn with small lead discs in them to provide a resistance to magic. In order to power the enchantments, many robes require a small amount of your life energy - this reduces your hit points, but can easily be restored by taking off the robe.
