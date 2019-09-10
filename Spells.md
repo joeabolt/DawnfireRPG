@@ -65,7 +65,7 @@ The following table summarizes these changes for your ease:
 |9 |10 AP|45|110|25|11d6|x9
 |10|11 AP|50|120|30|12d6|x10
 
-## Spell: Heroism
+## Heroism
 __Tier:__ 1; __Element:__ Fire;  
 __Casting Time:__ 1 AP; __Casting Cost:__ 3 [HP Reduction];  
 __Range:__ Voice; __Duration:__ 3 [Rounds]; __Target:__ 1 creature;  
@@ -81,6 +81,14 @@ __Description:__ You point out one ally and speak a short, bold, inspiring incan
 * Ability checks with one ability score you choose
 
 If you cast this spell on the same target while a previous casting is active, the bonuses do not stack. You may grant more types of bonuses through multiple castings. Each time you cast this spell on the same target, the duration resets for all bonuses affecting them.
+
+## Word of Calm
+__Tier:__ 1; __Element:__ Fire;  
+__Casting Time:__ 1 AP; __Casting Cost:__ 5 [HP Reduction];  
+__Range:__ Voice; __Duration:__ 10 minutes, see text; __Target:__ 1 creature;  
+__Description:__ With a soothing word, you instill calm into a creature your voice reaches - you need not gesture to cast this spell. Make a spell attack roll against the target's SR. If they resist, they take a -2 penalty to attack and damage rolls for 1 [Round]. If you succeed, they are magically calmed for up to 10 minutes. They can still defend themselves, and if they are harmed the spell is broken. Otherwise, they avoid conflict, either dodging the confrontation or refusing to fight. Keep in mind that a calmed creature is not necessarily a compliant one, just not hostile.
+
+After the 10 minutes pass, they may remain calm if there are no stressors present. Regardless, they are aware that you enchanted them and may not take kindly to you in the future.
 
 ## Control Object
 __Tier:__ 1; __Element:__ Earth;  
@@ -124,20 +132,45 @@ The following table summarizes these changes for your ease:
 |9 |10 AP|45|190|11d6|x9
 |10|11 AP|50|210|12d6|x10
 
+## Mage Armor
+__Tier:__ 1; __Element:__ Earth;  
+__Casting Time:__ 3 AP; __Casting Cost:__ 3 [HP Reduction];  
+__Range:__ Touch; __Duration:__ [Sun], or until dismissed; __Target:__ 1 creature;  
+__Description:__ A number of magical planes of [Force] slowly swirl around the target creature, blocking incoming attacks. They increase the target's AC by +4, or by +2 if the target is wearing armor. As an [Immediate Action], when the target receives a critical hit, they may dismiss this spell to make the attack miss.
+
+This spell can be cast above 1st Tier. Each time you increase the tier, do the following:
+* Increase the AC bonus by +1. The armored bonus is always one-half this value
+* Increase the casting cost by 3 [HP Reduction]
+
 ## Shield
 __Tier:__ 1; __Element:__ Earth;  
 __Casting Time:__ 1 AP; __Casting Cost:__ 5 [HP Reduction];  
-__Range:__ Touch; __Duration:__ Encounter, or until depleted; __Target:__ 1 creature;  
+__Range:__ Touch; __Duration:__ [Encounter], or until depleted; __Target:__ 1 creature;  
 __Description:__ You summon a shield-sized plane of [Force] that automatically moves around a creature you designate, protecting them against harm. It provides a +2 bonus to AC while active, or +4 against ranged attacks. If you are targeted by the Magic Missile spell, the shield automatically negates it - the shield can do this 5 times, after which it is destroyed.
 
 You can cast this spell above 1st Tier. Each time you increase the tier, do the following:
 * Increase the number of Magic Missiles the shield can negate by 1
 
+## Blade Barrier
+__Tier:__ 3; __Element:__ Metal;  
+__Casting Time:__ 2 AP; __Casting Cost:__ 12 [HP Reduction];  
+__Range:__ 60 feet; __Duration:__ 6 [Rounds]; __Target:__ 60-ft line;  
+__Description:__ Your voice and elaborate gesticulation call forth a wall of whirling blades made entirely of pure [Force] - these frequently glow based on the caster, with pink, blue, white, and violet being common. The wall is up to 60 feet long, up to 15 feet high, and 5 feet deep. Any creature moving through the wall takes 3d6 damage + 3 times your Charisma [Force] damage. Creatures ending their turn in the wall take 6d6 + 6 times your Charisma [Force] damage. Creatures in the wall when it is created may use an [Immediate Action] to step 5 feet to either side.
+
+While the wall is active, you can summon one of its swords into your hand as an [Instant Action]. These are one-handed weapons, deal 2d8 + Charisma + Strength [Force] damage on a hit, and can be thrown up to 30 feet. The swords use martial attack rolls against SR. Only you can wield the swords.
+
+You can cast this spell above 3rd Tier. Each time you increase the tier, do the following:
+* Increase the wall's damage dice by 1d6, up to 12d6
+* Increase the sword's damage by +2
+* Increase the casting cost by 4 [HP Reduction]
+
 ## Counterspell
 __Tier:__ 1; __Element:__ Metal;  
 __Casting Time:__ 2 AP, see text; __Casting Cost:__ 0 [HP Reduction], see text;  
 __Range:__ Voice; __Duration:__ Concentration/Instantaneous; __Target:__ 1 spell;  
-__Description:__ You murmur and wring your hands, preparing a small bundle of antimagic that can be used to counter an enemy spell. When you finish casting the spell, it does not automatically fire, and you may begin concentrating each [Round] to save it for later. You fire the counterspell as a [Reaction] or as an [Instant Action] when an enemy within range of your voice finishes casting a spell. Roll 1d6 per point of [HP Reduction] accepted when you cast this spell. If you exceed their spell attack roll (they make one now if they did not have to for the spell), their spell is countered and has no effect.
+__Description:__ You murmur and wring your hands, preparing a small bundle of antimagic that can be used to counter an enemy spell. When you finish casting the spell, it does not automatically fire, and you may begin concentrating as a [Fast Action] each [Round] to save it for later. You fire the counterspell as a [Reaction] or as an [Instant Action] when an enemy within range of your voice finishes casting a spell. Roll 1d6 per point of [HP Reduction] accepted when you cast this spell. If you exceed their spell attack roll (they make one now if they did not have to for the spell), their spell is countered and has no effect.
+
+When casting Counterspell at the same time as another spell, 
 
 You can use Counterspell on itself; indeed, this is a rather common feature of wizard duels. Wands and staves with Counterspell can be designed with a flat cost of 5 [HP Reduction] (plus any [HP Reduction] to grant the counterspell strength) to allow them to charge and cast it as a [Fast Action].
 
@@ -209,7 +242,7 @@ The following table summarizes these changes for your ease:
 |9 |10 AP|45|55 |11d6|x9
 |10|11 AP|50|60 |12d6|x10
 
-## Spell: Dowse
+## Dowse
 __Tier:__ 1; __Element:__ Water;  
 __Casting Time:__ 3 AP; __Casting Cost:__ 1 [HP Reduction];  
 __Range:__ 720 ft; __Duration:__ Instantaneous; __Target:__ Self;  
@@ -252,6 +285,16 @@ __Tier:__ 1; __Element:__ Water;
 __Casting Time:__ 2 AP; __Casting Cost:__ 2 [HP Reduction];  
 __Range:__ Eye; __Duration:__ 5 minutes; __Target:__ Up to 3 creatures;  
 __Description:__ With quick, pointed glances you form a telepathic link between up to 3 creatures, possibly including yourself as one of the targets. This spell is silent to cast. Creatures linked telepathically can communicate at any distance. If you cast this spell multiple times, one entire link can be used as a target - this allows you to add 1 or 2 other creatures to it. When used this way, this spell also resets the duration on that link.
+
+## Regeneration
+__Tier:__ 3; __Element:__ Water;  
+__Casting Time:__ 6 AP; __Casting Cost:__ 12 [HP Reduction];  
+__Range:__ Touch; __Duration:__ Sun; __Target:__ 1 creature;  
+__Description:__ You run your hands over the target's wounds and whisper secret chants, commanding the flesh to knit itself together again. The target heals half their current damage over time until the sun next rises or sets, at least 3 hours. This is a slow process, so if they get in combat early, they may not have fully healed.
+
+This spell also regenerates any damaged organs. If a severed limb is present and secured against the body, the limb reattaches to the body. Reattaching limbs is an excellent way to get nasty diseases, so thorough cleaning or a remove disease spell is recommended.
+
+This spell can heal living creatures, undead creatures, and creatures that heal through other means (such as constructs), as long as they have a physical form.
 
 ## Translation
 __Tier:__ 2; __Element:__ Water;  
@@ -310,3 +353,19 @@ You may cast this spell above 2nd Tier. Each time you increase the tier, make th
 * Increase the number of creatures you can target by 1
 * Increase the casting time by 1 AP
 * Increase the casting cost by 12 [HP Reduction]
+
+## Portal
+__Tier:__ 1; __Element:__ Wood;  
+__Casting Time:__ 0 AP, see text; __Casting Cost:__ 3 [HP Reduction];  
+__Range:__ 60 feet; __Duration:__ 3 [Rounds]; __Target:__ see text;  
+__Description:__ You instantly wrap a bit of warped space around one of your arms where you can easily fire it at nearby surfaces. Firing is a [Fast Action], and may require a spell attack roll to fire precisely. Surfaces must be at least 5 square feet to be targeted. You do not need to keep a free hand for the spell duration, but you must have a free hand to fire.
+
+The two most recent surfaces you have fired upon are linked by portals, allowing one to treat them as adjacent to each other. Firing a third time removes an existing portal of your choice, places a new one, and links the new portal to the remaining portal.
+
+Physics works peculiarly, but predictably.
+
+You can cast this spell above 1st Tier. Each time you increase the tier, make the following changes:
+* Increase the duration by 1 [Round]
+* Increase the range by 60 feet. At 10th tier, the range is Sight
+  * GMs are within their right to arbitrarily limit range at 10th level. Not everyone enjoys suddenly interplanatary high fantasy.
+* Increase the casting cost by 5 [HP Reduction]
