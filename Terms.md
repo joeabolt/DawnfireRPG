@@ -23,7 +23,9 @@
 * __[Bleeding]__: You are taking damage over time. At the beginning of your turn each [Round], take the [Bleeding] damage again. This can usually be stopped with a DC 20 Heal check.
 * __[Blinded]__: You cannot see (or use your primary sense). All other creatures gain the benefits of [Invisibility] against you, your movement speed is halved, and you take a -8 penalty to initiative.
 * __[Burning]__: Take damage as [Bleeding]. Can usually be ended by drenching you in water or smothering the fire / necrotic bacteria / other.
+* __[Dead]__: You are no longer alive. Removes all other conditions. You are no longer a character, but are an object under the GMs purview. RIP.
 * __[Deafened]__: You cannot hear (or use your secondary sense). You take a -2 penalty to AC and SR, and a -4 penalty to initiative.
+* __[Dying]__: You can only gain [Dying] while below 0 hit points. Each [Round], on your turn, you must make a Constitution check or take 1 point of damage. The DC is 15 + the number of negative hit points you have.
 * __[Energy Drained]__: Your vitality, attentiveness, and prowess have been sapped away. You take a -1 penalty to all d20 rolls, AC, and SR. The source of this penalty will describe how long it lasts.
 * __[Frightened]__: You are severely afraid. You take a penalty on all d20 rolls, usually -3. You must either confront or flee the source of your fear. This is always a [Fear] condition.
 * __[Grappled]__: 
@@ -33,6 +35,7 @@
 * __[Shaken]__: You are afraid. You take a penalty on all d20 rolls, usually -1. This is always a [Fear] condition.
 * __[Sickened]__: 
 * __[Staggered]__: Something has left you unable to act effectively. If it is not your turn, you start your next turn with 1 fewer AP than normal. If it is your turn, you lose 1 AP immediately. If this would put you below 0 AP, you can take no more actions until your next turn.
+* __[Unconscious]__: You are not conscious and cannot take actions, including casting or controlling spells, communicating, and continuing to fly or swim.
 
 ### Movement Modes
 * __[Fly]__: 

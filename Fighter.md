@@ -27,7 +27,7 @@ While focused, the Fighter adds their Focus Bonus to all attack rolls.
 At 7th level, a Fighter learns to handle overwhelming punishments with comparable ease. They gain [Resistance] to [Physical] damage equal to one-half their level. While below 0 hit points, they cannot lose more than 3 hit points per [Round].
 
 ### Swift and Sure
-At 10th level, a Fighter's footwork improves, letting them move across the battlefield with more confidence than their opponents. When making a 5-foot Step, they may move 10 feet instead of 5. They may move 5 feet as part of making an attack. When targeted by an attack, the Fighter may use a [Reaction] to move 5 feet, possibly moving out of range of the attack.
+At 10th level, a Fighter's footwork improves, letting them move across the battlefield with more confidence than their opponents. When making a 5-foot step, they may move 10 feet instead of 5. They may move 5 feet as part of making an attack. When targeted by an attack, the Fighter may use a [Reaction] to move 5 feet, possibly moving out of range of the attack.
 
 ### Shrug it Off
 Upon reaching 13th level, a Fighter can shrug off most debilitating conditions. When affected by a harmful condition, the duration decreases by 1 of whatever increment is most appropriate (usually days, hours, or [Rounds]), to a minimum of 0.
