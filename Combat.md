@@ -73,6 +73,13 @@ You do not have to finish casting a spell on one turn. If you have a partially-c
 #### Casting Multiple Spells
 You can cast multiple spells at the same time. When starting to cast another spell, you must make an Intelligence check to begin casting. The DC is 10 + twice new spell's tier + the highest tier of the spells you were already casting. If you fail, the action is wasted and the spell immediately fizzles.
 
+## Death, Dying, and Healing
+If your hit points ever fall below 0, you fall [Unconscious] and begin [Dying]. While [Dying], you must make a Constitution check each [Round] (DC 15 + number of negative hit points) or take 1 point of damage. As a [Slow Action], another creature can stabilize you, removing the [Dying] condition.
+
+If your hit points reach -10, you become [Dead]. Stone dead. Deceased. Demised. Passed on. No more. Expired. Stiff. A proverbial ex-parrot.
+
+Each day, you heal your Constitution hit points. If you spend the day resting, you heal twice your Constitution + your level. Medical attention can increase this, as per the Heal skill.
+
 ## Combat Maneuvers
 
 ### Charge
